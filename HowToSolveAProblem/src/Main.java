@@ -4,7 +4,7 @@ public class Main {
         boolean antwort;
 
         System.out.println("Funktioniert alles wie es soll?");
-        antwort = false
+        antwort = false;
         if (antwort) {
             System.out.println("Lass es so!");
             System.out.println("Es gibt kein Problem!");
