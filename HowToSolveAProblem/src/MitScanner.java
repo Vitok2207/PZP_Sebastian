@@ -5,7 +5,6 @@ public class MitScanner {
         boolean solve_problem = true;
         while (solve_problem) {
             Scanner dieEingabe = new Scanner(System.in);
-
             int antwort;
 
             System.out.println("Beantworte folgende Fragen mit 1 für JA oder 0 für NEIN!\n");
@@ -19,13 +18,12 @@ public class MitScanner {
             }
             else if(antwort == 0){
                 System.out.print("Hast du dran rumgefummelt? ");
-                antwort = dieEingabe.nextInt();;
-
+                antwort = dieEingabe.nextInt();
                 if (antwort == 1) {
                     System.out.println("Du Blödmann!");
 
                     System.out.print("Weiß jemand davon? ");
-                    antwort = dieEingabe.nextInt();;
+                    antwort = dieEingabe.nextInt();
 
                     if (antwort == 1) {
                         System.out.println("Du armes Schwein!");
@@ -35,7 +33,6 @@ public class MitScanner {
                         System.out.println("Es gibt kein Problem!");
                     }
                 }
-
                 else if(antwort == 0){
                     System.out.print("Bist du dafür verantwortlich? ");
                     antwort = dieEingabe.nextInt();
@@ -50,13 +47,11 @@ public class MitScanner {
                         else if(antwort == 0){
                             System.out.println("Du armes Schwein!");
                         }
-
                     }
                     else if(antwort == 0){
                         System.out.println("Mehr Glück als Verstand!");
                         System.out.println("Es gibt kein Problem!");
                     }
-
                 }
             }
             System.out.print("Noch einmal versuchen? ");
